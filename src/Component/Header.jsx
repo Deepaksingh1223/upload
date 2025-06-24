@@ -1,11 +1,10 @@
 import Image from "../Component/Image";
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import { Link } from "react-router-dom";
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const toggleMenu = () => {
-    console.log("hello")
     setMenuOpen(!menuOpen);
   };
 

@@ -5,7 +5,7 @@ import { useInView } from "react-intersection-observer";
 
 const Leading = () => {
   const { ref, inView } = useInView({
-    triggerOnce: true, 
+    triggerOnce: true,
     threshold: 0.3,
   });
 
@@ -72,7 +72,8 @@ const Leading = () => {
                       </defs>
                       <text>
                         <textPath href="#circlePath" startOffset="0%">
-                          Rentelli Gence- AI AND AUTOMATION INTEGRATION • Rentelli Gence- AI AND AUTOMATION INTEGRATION •
+                          Rentelli Gence- AI AND AUTOMATION INTEGRATION •
+                          Rentelli Gence- AI AND AUTOMATION INTEGRATION •
                         </textPath>
                       </text>
                     </svg>
@@ -92,9 +93,10 @@ const Leading = () => {
                       Innovate Faster with Our AI Generator Platform
                     </h4>
                     <p className="box-text text-gray3">
-                      From generating complex algorithms to simple AI-driven tools, we
-                      offer cutting-edge solutions. Enables machines to interpret and
-                      analyze visual data such as images, videos, and real-world objects.
+                      From generating complex algorithms to simple AI-driven
+                      tools, we offer cutting-edge solutions. Enables machines
+                      to interpret and analyze visual data such as images,
+                      videos, and real-world objects.
                     </p>
                   </div>
                   <div className="why-counter-card">
@@ -112,7 +114,9 @@ const Leading = () => {
                       )}
                       <span className="counter-marker">+</span>
                     </h2>
-                    <h4 className="counter-text text-white">Digital Experience</h4>
+                    <h4 className="counter-text text-white">
+                      Digital Experience
+                    </h4>
                   </div>
                 </div>
               </div>

@@ -40,10 +40,7 @@ const AdvancedTechnology = () => {
               >
                 Advanced Technology
               </span>
-              <h2
-                className="sec-title fw-bold text-anim2"
-                data-aos="fade-up"
-              >
+              <h2 className="sec-title fw-bold text-anim2" data-aos="fade-up">
                 The Future is Here: Advance Technology
               </h2>
             </div>
@@ -52,15 +49,12 @@ const AdvancedTechnology = () => {
               <div className="col-md-6" data-aos="fade-up">
                 <div className="feature-card style3">
                   <div className="box-icon">
-                    <img
-                      src={Image.featureicon1}
-                      alt="icon"
-                    />
+                    <img src={Image.featureicon1} alt="icon" />
                   </div>
                   <h3 className="box-title">Tech support</h3>
                   <p className="box-text">
-                    To empower businesses with intelligent, scalable,
-                    and impactful solutions that drive progress
+                    To empower businesses with intelligent, scalable, and
+                    impactful solutions that drive progress
                   </p>
                 </div>
               </div>
@@ -68,15 +62,12 @@ const AdvancedTechnology = () => {
               <div className="col-md-6" data-aos="fade-up">
                 <div className="feature-card style3">
                   <div className="box-icon">
-                    <img
-                      src={Image.featureicon2}
-                      alt="icon"
-                    />
+                    <img src={Image.featureicon2} alt="icon" />
                   </div>
                   <h3 className="box-title">Robo Genius</h3>
                   <p className="box-text">
-                    To empower businesses with intelligent, scalable,
-                    and impactful solutions that drive progress
+                    To empower businesses with intelligent, scalable, and
+                    impactful solutions that drive progress
                   </p>
                 </div>
               </div>
@@ -84,15 +75,12 @@ const AdvancedTechnology = () => {
               <div className="col-md-6" data-aos="fade-up">
                 <div className="feature-card style3">
                   <div className="box-icon">
-                    <img
-                      src={Image.featureicon2}
-                      alt="icon"
-                    />
+                    <img src={Image.featureicon2} alt="icon" />
                   </div>
                   <h3 className="box-title">Image Generation</h3>
                   <p className="box-text">
-                    To empower businesses with intelligent, scalable,
-                    and impactful solutions that drive progress
+                    To empower businesses with intelligent, scalable, and
+                    impactful solutions that drive progress
                   </p>
                 </div>
               </div>
@@ -100,15 +88,12 @@ const AdvancedTechnology = () => {
               <div className="col-md-6" data-aos="fade-up">
                 <div className="feature-card style3">
                   <div className="box-icon">
-                    <img
-                      src={Image.featureicon4}
-                      alt="icon"
-                    />
+                    <img src={Image.featureicon4} alt="icon" />
                   </div>
                   <h3 className="box-title">Chatbots</h3>
                   <p className="box-text">
-                    To empower businesses with intelligent, scalable,
-                    and impactful solutions that drive progress
+                    To empower businesses with intelligent, scalable, and
+                    impactful solutions that drive progress
                   </p>
                 </div>
               </div>
