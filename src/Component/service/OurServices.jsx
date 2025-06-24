@@ -1,33 +1,8 @@
   
 import "aos/dist/aos.css";
 import {useState } from "react";
+import { serviceData } from "../../constants/constant";
 
-const serviceData = [
-    {
-        id: 1,
-        img: Image.servicecard1,
-        title: 'AI Consulting Services',
-        desc: 'Identify and mitigate potential security threats in real-time.',
-    },
-    {
-        id: 2,
-        img: Image.servicecard2,
-        title: 'Machine Learning',
-        desc: 'Develop and deploy models tailored to specific business needs.',
-    },
-    {
-        id: 3,
-        img: Image.servicecard3,
-        title: 'Robotic Process Automation',
-        desc: 'Automate repetitive tasks such as data entry, invoice processing, and report generation.',
-    },
-    {
-        id: 4,
-        img: Image.servicecard4,
-        title: 'AI in Cybersecurity',
-        desc: 'Identify and mitigate potential security threats in real-time.',
-    },
-];
 const OurServices = () => {
    const [hovered, setHovered] = useState(null);
 

@@ -3,27 +3,7 @@ import CountUp from "react-countup";
 import { useInView } from "react-intersection-observer";
 import AOS from "aos";
 import "aos/dist/aos.css";
-
-const stats = [
-  {
-    title: "Global User Base",
-    value: 2000000,
-    subtitle: "2 Million+ Users",
-  },
-  {
-    title: "Transaction Volume",
-    value: 1000000000,
-    prefix: "$",
-    subtitle: "Total Transaction Volume",
-  },
-  {
-    title: "High-Speed Processing",
-    value: 99,
-    suffix: "%",
-    subtitle: "Faster Transactions",
-  },
-];
-
+import { stats } from "../../constants/constant";
 const compactFormatter = new Intl.NumberFormat("en", {
   notation: "compact",
   compactDisplay: "short",
@@ -32,7 +12,7 @@ const compactFormatter = new Intl.NumberFormat("en", {
 const StatsSection = () => {
   const { ref, inView } = useInView({
     triggerOnce: true,
-    threshold: .50,
+    threshold: 0.5,
   });
 
   useEffect(() => {
@@ -55,7 +35,9 @@ const StatsSection = () => {
                       duration={2}
                       separator=","
                       formattingFn={(val) =>
-                        `${stat.prefix || ""}${compactFormatter.format(val)}${stat.suffix || ""}`
+                        `${stat.prefix || ""}${compactFormatter.format(val)}${
+                          stat.suffix || ""
+                        }`
                       }
                     />
                   ) : (
