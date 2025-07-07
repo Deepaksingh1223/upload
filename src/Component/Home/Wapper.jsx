@@ -263,7 +263,7 @@ const Wapper = () => {
                     data-aos="fade-up"
                     data-aos-delay="500"
                   >
-                    <a href="/" className="th-btn style2">
+                    <a href="https://ai-rentelligence.vercel.app/" className="th-btn style2">
                       Get Started{" "}
                       <i className="far fa-long-arrow-right ms-2"></i>
                     </a>
